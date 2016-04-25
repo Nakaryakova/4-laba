@@ -1,0 +1,79 @@
+body{background: url(images/bg.png); margin: 0; padding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif; color: #272727; }
+a{text-decoration: none; }
+	
+/*Основная структура - по центру*/
+
+body{width: 1000px; margin:0 auto; }
+
+/*Верхний блок (шапка сайта)*/
+header {width: 835px;/*Ширина блока*/ 
+ background: #d4f6f8; /*Цвет*/
+ padding: 10px 40px; /*Отступы*/
+ border-radius: 0 0 5px 5px;/*Скругленные углы*/ }
+ 
+header img{max-height: 100px; /*Ограничение размера картинки*/ }
+
+header ul {margin: 0; list-style: none; float: right; /*Выравнивание по правому краю*/ 
+ display: inline-block; /*Элементы в строку*/ }
+
+header h1 {font: 25px Arial; /*Шрифт*/
+ color: #BF9975; /*Цвет*/ }
+ 
+header h2 {font: 25px Arial; /*Шрифт*/
+ color: #BF9975; /*Цвет*/ }
+
+/*Навигационный блок*/
+nav {margin-top: 20px; padding: 10px 40px; /*Отступы*/
+ width: 835px;/*Ширина блока*/ 
+ background: #f2f2f2; /*Цвет фона*/ 
+ border-radius:5px; /*Скругленные углы*/ }
+ 
+/*Стиль списка*/
+nav ul{margin:0; padding: 0; /*Отступы*/  
+ list-style: none; /*Без маркеров списка*/ 
+ text-align: center; /*Выровнять по центру*/ }
+
+/*Текст*/
+nav ul li {display: inline-block;/*Выровнять в строку*/
+ margin: 5px 40px; /*Отступы*/ }
+
+nav ul li a {color: #60959C; /*Цвет текста*/ }
+	
+/*Блоки информации*/
+section {margin-top: 20px; padding: 10px 40px; /*Отступы*/
+ width: 835px;/*Ширина блока*/                                                          
+ background: #f2f2f2; /*Цвет фона*/ 
+ border-radius:5px; /*Скругленные углы*/ }
+ 
+/*Заголовок всех блоков*/
+section h3 {text-align: center; /*Выровнять по центру*/
+ color: #60959C; /*Цвет текста*/ }
+ 
+/*Заголовки в блоках "О клинике","Запись"*/
+section h4 {font: 20px Arial; /*Шрифт*/
+ color: #60959C; /*Цвет*/}
+ 
+/*Заголовки "Лечение ..."*/
+section h5 {padding:15px; margin-left: 50px;/*Отступы*/
+ color: #60959C; /*Цвет*/
+ font: 20px Arial; /*Шрифт*/}
+ 
+/*Для картинок ухо, горло, нос*/
+section img{float: left;/*Выравнивание по левому краю*/ }
+/*Описание формы*/
+section form {text-align: center;}
+
+/*Ширина блока выбора*/
+section form select {width:173px; margin-left: -5px;}
+
+/*Дизайн кнопки*/
+section form input[type=submit] { background:#E0E0E0; border: 1px solid #016c8b; cursor:pointer; border-radius: 5px; height: 25px; transition: all 1s;}
+section form input[type=submit]:hover  {background:#DCEFF5; transition: all 1s;}
+
+/*Подвал (надпись "Будьте здоровы!")*/
+footer{margin: 20px 0; padding: 10px 40px; /*Отступы*/
+ width: 835px;/*Ширина блока*/
+ text-align: center;/*Выровнять текст по центру*/ 
+ color: #60959C;  /*Цвет текста*/}
+
